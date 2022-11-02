@@ -1,0 +1,25 @@
+{
+  "name": "graphql",
+  "version": "1.0.0",
+  "description": "Learning GraphQl",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/index.js"
+  },
+  "author": "Shubham Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "@graphql-tools/schema": "^9.0.7",
+    "apollo-server": "^3.10.3",
+    "bcrypt": "^5.1.0",
+    "dotenv": "^16.0.3",
+    "graphql": "^16.6.0",
+    "graphql-subscriptions": "^2.0.0",
+    "graphql-ws": "^5.11.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.0",
+    "nodemon": "^2.0.20",
+    "ws": "^8.10.0"
+  }
+}
